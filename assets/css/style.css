@@ -8,12 +8,11 @@ body {
     width: 920px;
     margin: auto;
     padding: 0px 20px 20px 20px;
-    border: 1px solid #dddddd;
-    
-}
+    border: 1px solid #dddddd;    
+} 
 
 .content {
-        min-height: calc(100vh - 70px)
+        min-height: calc(100vh - 188px)
 }
 
 p {
@@ -21,10 +20,40 @@ p {
     line-height: 2;
 }
 
+label {
+    /* margin-bottom: 15px; */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#name {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#mail {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#message {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
 #profilepic {
     float: left;
     margin-right: 20px;
 }    
+
+#button {
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: none;
+}
 
 header {
     background: #ffffff;
@@ -89,4 +118,30 @@ h1 {
     border-bottom: 2px solid #cccccc;
     color: #4aaaa5;
     margin-bottom: 30px;
+}
+
+#image {
+    width: 275px;
+    border: 1px solid #dddddd;
+}
+
+h4 {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 277px;
+    position: absolute;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 105px;
+}
+
+.project {
+    float: left;
+    width: 275px;
+    margin: 10px 12px;
+}
+
+.gallery {
+    width: 900px;
+    height: 390px;
 }
