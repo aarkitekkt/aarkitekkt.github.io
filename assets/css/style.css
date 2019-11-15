@@ -21,7 +21,6 @@ p {
 }
 
 label {
-    /* margin-bottom: 15px; */
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -133,6 +132,17 @@ h4 {
     text-align: center;
     padding: 10px 0px;
     margin-top: 105px;
+}
+
+.project-name {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 277px;
+    position: absolute;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 105px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .project {
